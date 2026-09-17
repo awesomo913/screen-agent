@@ -1,0 +1,7 @@
+customtkinter>=5.2
+pyautogui>=0.9.54
+Pillow>=10.0
+ollama>=0.4
+mss>=10.0
+pywinauto>=0.6.8
+websocket-client>=1.6.0
