@@ -7,7 +7,7 @@ Screen Agent is an AI-drivable desktop automation tool: it exposes a huge librar
 ## Features
 - **233+ toolkit modules** in `toolkit/` — screen OCR, clipboard sync, file organizing/renaming, browser control, git/SSH/docker actions, registry tools, macro recording, template matching, and much more.
 - SQLite-backed job dispatcher (`job_dispatcher.py`) for queuing and tracking automation jobs.
-- CustomTkinter desktop GUI (`screen_agent.py`), documented in a 3,000+ line technical breakdown.
+- CustomTkinter desktop GUI (`screen_agent.py`), documented in a technical breakdown.
 - Consistent per-tool return contract (`{success, data, error}`) across the whole toolkit for reliable chaining.
 - Full test runner (`test_all_tools.py`) exercising the toolkit.
 - Packaged as a standalone Windows executable via PyInstaller (`ScreenAgent.spec`).
